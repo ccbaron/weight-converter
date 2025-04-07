@@ -1,5 +1,5 @@
 // Buena suerte
-
+/* 
 const inputPounds = document.querySelector('#input');
 
 inputPounds.addEventListener("input", function(event){
@@ -14,11 +14,11 @@ inputPounds.addEventListener("input", function(event){
     document.querySelector('#result').textContent = kilograms.toFixed(2);
     
     
-})
+}) */
 
-//Alternativa://
+//Alternativa//
 
-/*
+
 
 const inputPounds = document.querySelector('#input');
 const spanResult = document.querySelector('#result');
@@ -33,9 +33,8 @@ inputPounds.addEventListener("input", function(event){
     // Hay que multiplicar el valor de variable pounds por 0,453592
 
     // El resultado escribirlo en el nodo #result. Podemos hacer ambas operaciones en una línea
-    spanResult.textContent =  (pounds * 0.453592).toFixed(2);
+    spanResult.textContent = (pounds * 0.453592).toFixed(2);
     
 
 })
 
-*/
